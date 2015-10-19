@@ -1,0 +1,105 @@
+/*!
+ * Bootstrap v3.1.1 (http://getbootstrap.com)
+ * Copyright 2011-2014 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+@import 'normalize';
+
+html, body {
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  background: #eee;
+  font-size: 12px;
+}
+
+h1 {
+  margin: 0;
+  padding: 0.25em;
+}
+
+header {
+  border-bottom: 1px solid #ccc;
+}
+
+.list {
+  background: #fff;
+  height: 10em;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #ccc;
+
+  table {
+    width: 100%;
+    overflow: hidden;
+
+    th {
+      background: #eee;
+      text-align: left;
+      color: #666;
+      padding: 0.25em;
+    }
+  }
+}
+
+.email {
+  border-top: 1px solid #fff;
+  height: 100%;
+
+  dl {
+    overflow: hidden;
+
+    dt, dd {
+      padding: 0.25em;
+    }
+
+    dt {
+      width: 8em;
+      margin-right: 0.5em;
+      text-align: right;
+      color: #666;
+      font-weight: bold;
+      float: left;
+      clear: left;
+    }
+  }
+
+  ul {
+    margin: 0;
+    padding: 0 0.5em;
+    border-bottom: 1px solid #ccc;
+
+    li {
+      display: inline-block;
+      vertical-align: middle;
+
+      a {
+        display: inline-block;
+        vertical-align: middle;
+        padding: 0.5em;
+        border: 1px solid #ccc;
+        background: #ddd;
+        color: #333;
+        border-width: 1px 1px 0 1px;
+        cursor: pointer;
+        text-shadow: 0 1px 0 #eeeeee;
+        text-decoration: none;
+      }
+
+      &.selected {
+        a {
+          background: #fff;
+          color: #000;
+          margin-bottom: -2px;
+        }
+      }
+    }
+  }
+
+  .content {
+    height: 100%;
+    background: #fff;
+  }
+}
